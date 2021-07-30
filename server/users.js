@@ -1,3 +1,6 @@
+
+// Это БД чата
+
 class Users {
   constructor () {
     this.users = [];
