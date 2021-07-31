@@ -38,6 +38,7 @@ export default {
   components: {ChatForm, Message},
   watch: {
     messages () {
+      // При добавлении сообщения делаем скролл вниз
       this.$nextTick(() => {
         this.$refs.block.scrollTop = this.$refs.block.scrollHeight;
       });
